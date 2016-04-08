@@ -10,7 +10,7 @@ BudgetJustification.pdf: BudgetJustification.tex
 currentpending: $(CP)
 
 mostlyclean:
-	rm -f *.out *.log *.blg *~
+	rm -f *.out *.log *.blg *~ .*.swp
 
 clean: mostlyclean
 	rm -f *.aux *.bbl BudgetJustification.pdf

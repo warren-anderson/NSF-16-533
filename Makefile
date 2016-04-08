@@ -33,4 +33,5 @@ mostlyclean:
 	-for d in $(DIRS); do (cd $$d; $(MAKE) mostlyclean ); done
 
 clean: mostlyclean
+	rm -f *~ .*.swp
 	-for d in $(DIRS); do (cd $$d; $(MAKE) mostlyclean ); done

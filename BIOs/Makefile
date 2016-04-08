@@ -17,7 +17,7 @@ cp_anderson.pdf : cp_anderson.tex
 	$(TEX) cp_anderson
 
 mostlyclean:
-	rm -f *.out *.log *.blg *~
+	rm -f *.out *.log *.blg *~ .*.swp
 
 clean: mostlyclean
 	rm -f *.aux *.bbl $(BIOS) $(CP)
